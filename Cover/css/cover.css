@@ -1,0 +1,775 @@
+/* ----------- FONTS ----------- */
+
+@font-face {
+    font-family: 'TwoText';
+    src:url(../fonts/STIXTwoText.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'TwoText-Italic';
+    src:url(../fonts/STIXTwoText-Italic.ttf) format('truetype');
+}
+
+.H1 {
+    font-family: 'TwoText';
+    letter-spacing: -4px;
+    font-weight: 400;
+    font-size: 2.7em;
+}
+
+.italics {
+    font-family: 'TwoText-Italic';
+    letter-spacing: -2.5px;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.body {
+    font-family: 'TwoText';
+    letter-spacing: -2.2px;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.italics, .body {
+    display: inline; 
+}    
+
+/* ----------- ANIMATION ----------- */
+
+@keyframes wave {
+    /* 0% { right: 49px } */
+    0% { right: 70px }
+    100% { right: -423px }
+}
+
+@keyframes h1 {
+    0% {top: 0px ; font-variation-settings : "wght" 400}
+    10% {top: -20px ; font-variation-settings : "wght" 650}
+    30% {top: 0px ; font-variation-settings : "wght" 400}
+    100% {top: 0px ; font-variation-settings : "wght" 400}
+}
+
+@keyframes body {
+    0% {top: 0px ; font-variation-settings : "wght" 400}
+    10% {top: -20px ; font-variation-settings : "wght" 650}
+    18% {top: 0px ; font-variation-settings : "wght" 400}
+    100% {top: 0px ; font-variation-settings : "wght" 400}
+}
+
+/* ----------- Steven TEXT ----------- */
+
+.H1.Steven{
+    position: absolute;
+    left: 55px;
+    top: 0.8px;
+}
+
+.H1.Steven .S {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.5s;
+}
+
+.H1.Steven .t {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.7s;
+}
+
+.H1.Steven .e1 {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.8s;
+}
+
+.H1.Steven .v {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.1s;
+}
+
+.H1.Steven .e2 {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.3s;
+}
+
+.H1.Steven .n {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.4s;
+}
+
+/* ----------- Millhauser TEXT ----------- */
+
+.Millhauser {
+    position: absolute;
+    left: 90px;
+    top: 78px;
+}
+
+.Millhauser .M {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.5s;
+}
+
+.Millhauser .i {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.7s;
+}
+
+.Millhauser .l1 {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.9s;
+}
+
+.Millhauser .l2 {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.1s;
+}
+
+.Millhauser .h {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.3s;
+}
+
+.Millhauser .a {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.5s;
+}
+
+.Millhauser .u {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.7s;
+}
+
+.Millhauser .s {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.9s;
+}
+
+.Millhauser .e {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 2.1s;
+}
+
+.Millhauser .r {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 2.3s;
+}
+
+/* ----------- Voices TEXT ----------- */
+
+.Voices{
+    position: absolute;
+    left: 170px;
+    top: 225px;
+}
+
+.Voices .V {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.4s;
+}
+
+.Voices .o {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.6s;
+}
+
+.Voices .i {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.8s;
+}
+
+.Voices .c {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1s;
+}
+
+.Voices .e {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.2s;
+}
+
+.Voices .e {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.4s;
+}
+
+/* ----------- In The TEXT ----------- */
+
+.in {
+    position: absolute;
+    left: 223px;
+    top: 299px;
+}
+
+.in .i {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.5s;
+}
+
+.in .n {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.7s;
+}
+
+.in .space {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.9s;
+}
+
+.in .t {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.1s;
+}
+
+.in .h {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.3s;
+}
+
+.in .e {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.5s;
+}
+
+/* ----------- Night TEXT ----------- */
+
+.Night{
+    position: absolute;
+    left: 262px;
+    top: 370px;
+}
+
+.Night .N {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.6s;
+}
+
+.Night .i {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 0.8s;
+}
+
+.Night .g {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1s;
+}
+
+.Night .h {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.2s;
+}
+
+.Night .t {
+    display: inline-block;
+    position: relative;
+    animation: h1 infinite 5s;
+    animation-delay: 1.4s;
+}
+
+/* ----------- Winner TEXT ----------- */
+
+.Pulitzer {
+    position: absolute;
+    left: 134px;
+    top: 178px;
+}    
+
+.Pulitzer .W {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.35s;
+}
+
+.Pulitzer .italics .i {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.4s;
+}    
+
+.Pulitzer .n1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.45s;
+}    
+
+.Pulitzer .n2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.5s;
+}    
+
+.Pulitzer .e1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.55s;
+}    
+
+.Pulitzer .italics .r {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.6s;
+}  
+
+.Pulitzer .space1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.65s;
+}  
+
+.Pulitzer .o {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.7s;
+}  
+
+.Pulitzer .f {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.75s;
+}
+
+.Pulitzer .space2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.8s;
+}
+
+.Pulitzer .italics .t {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.8s;
+}
+
+.Pulitzer .h {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.85s;
+}
+
+.Pulitzer .italics .e2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.9s;
+}
+
+.Pulitzer .body .P1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.95s;
+}
+
+.Pulitzer .body .u {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1s;
+}
+
+.Pulitzer .body .l {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.05s;
+}
+
+.Pulitzer .body .i1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.1s;
+}
+
+.Pulitzer .body .t {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.15s;
+}
+
+.Pulitzer .body .z1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.2s;
+}
+
+.Pulitzer .body .e1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.25s;
+}
+
+.Pulitzer .body .r1 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.3s;
+}
+
+.Pulitzer .body .P2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.35s;
+}
+
+.Pulitzer .body .P2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.4s;
+}
+
+.Pulitzer .body .P2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.45s;
+}
+
+.Pulitzer .body .r2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.5s;
+}
+
+.Pulitzer .body .i2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.5s;
+}
+
+.Pulitzer .body .z2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.55s;
+}
+
+.Pulitzer .body .e2 {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 1.6s;
+}
+
+/* ----------- Stories TEXT ----------- */
+
+.Stories{
+    position: absolute;
+    left: 305px;
+    top: 472px;
+}
+
+.Stories .S {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.2s;
+}
+
+.Stories .t {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.3s;
+}
+
+.Stories .o {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.35s;
+}
+
+.Stories .r {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.4s;
+}
+
+.Stories .i {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.45s;
+}
+
+.Stories .e {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.5s;
+}
+
+.Stories .s {
+    display: inline-block;
+    position: relative;
+    animation: body infinite 5s;
+    animation-delay: 0.55s;
+}
+
+/* ----------- BACKGROUND ----------- */
+.rectangle {
+    height: 621px;
+    width: 403px;
+    position: relative;
+    left: 50%;
+    margin-top: 5%;   /*translate isnt workin bc i need to use relative*/
+    margin-bottom: 5%;
+    transform: translate(-50%);
+    overflow: hidden;
+}
+
+.rect1 {
+    width: 403.3005px;
+    height: 35.8199px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.rect2 {
+    width: 403.3005px;
+    height: 35.641px;
+    background: #fffef0;
+    position: absolute;
+    left: 0;
+    top: 35.8199px;
+}
+
+.rect3 {
+    width: 403.3005px;
+    height: 38.9744px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px);
+}
+
+.rect4 {
+    width: 403.3005px;
+    height: 35.6923px;
+    background: #fffef0;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px);
+}
+
+.rect5 {
+    width: 403.3005px;
+    height: 38.9744px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px);
+}
+
+.rect6 {
+    width: 403.3005px;
+    height: 35.6923px;
+    background: #fffef0;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px);
+}
+
+.rect7 {
+    width: 403.3005px;
+    height: 39.4872px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px);
+}
+
+.rect8 {
+    width: 403.3005px;
+    height: 35.4458px;
+    background: #fffef0;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px);
+}
+
+.rect9 {
+    width: 403.3005px;
+    height: 37.2722px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px);
+}
+
+.rect10 {
+    width: 403.3005px;
+    height: 35.6082px;
+    background: #fffef0;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px);
+}
+
+.rect11 {
+    width: 403.3005px;
+    height: 36.4402px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px + 35.6082px);
+}
+
+.rect12 {
+    width: 403.3005px;
+    height: 34.8718px;
+    background: #fffef0;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px + 35.6082px + 36.4402px);
+}
+
+.rect13 {
+    width: 403.3005px;
+    height: 36.7308px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px + 35.6082px + 36.4402px + 34.8718px);
+}
+
+.rect14 {
+    width: 403.3005px;
+    height: 36.3519px;
+    background:#fffef0;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px + 35.6082px + 36.4402px + 34.8718px + 36.7308px);
+}
+
+.rect15 {
+    width: 403.3005px;
+    height: 36.7308px;
+    background:black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px + 35.6082px + 36.4402px + 34.8718px + 36.7308px + 36.3519px);
+}
+
+.rect16 {
+    width: 403.3005px;
+    height: 36.3519px;
+    background:#fffef0;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px + 35.6082px + 36.4402px + 34.8718px + 36.7308px + 36.3519px + 36.7308px);
+}
+
+.rect17 {
+    width: 403.3005px;
+    height: 35px;
+    background:black;
+    position: absolute;
+    left: 0;
+    top: calc(35.8199px + 35.641px + 38.9744px + 35.6923px + 38.9744px + 35.6923px + 39.4872px + 35.4458px + 37.2722px + 35.6082px + 36.4402px + 34.8718px + 36.7308px + 36.3519px + 36.7308px + 36.3519px);
+}
+
+.shadow {
+    height: 621px;
+    width: 403px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        3px;
+    box-shadow: 23px 0px 30px -16px inset grey;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.wave {
+    height: 614px;
+    width: 824px;
+    background-image: url(../longWave.svg);
+    position: absolute;
+    right: 49px;
+    bottom: 0;
+    animation: wave infinite linear 5s;
+}
